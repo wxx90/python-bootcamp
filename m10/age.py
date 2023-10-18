@@ -4,6 +4,7 @@ now = datetime.now()
 print(now.timestamp())
 print(now.year, now.month, now.day)
 
+print(now())
 
 def f(a, b, c):
     return a+b+c
